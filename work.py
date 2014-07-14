@@ -19,5 +19,5 @@ class Work:
             ('1000', 'Very High')], 'Priority', select=True)
 
     @staticmethod
-    def default_priorty():
-        return 500
+    def default_priority():
+        return '500'
