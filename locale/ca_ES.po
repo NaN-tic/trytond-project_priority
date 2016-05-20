@@ -1,0 +1,27 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:project.work,priority:"
+msgid "Priority"
+msgstr "Prioritat"
+
+msgctxt "selection:project.work,priority:"
+msgid "High"
+msgstr "Alta"
+
+msgctxt "selection:project.work,priority:"
+msgid "Low"
+msgstr "Baixa"
+
+msgctxt "selection:project.work,priority:"
+msgid "Normal"
+msgstr "Normal"
+
+msgctxt "selection:project.work,priority:"
+msgid "Very High"
+msgstr "Urgent"
+
+msgctxt "selection:project.work,priority:"
+msgid "Very Low"
+msgstr "Molt baixa"
