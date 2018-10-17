@@ -14,7 +14,7 @@ class Work:
             ('250', 'Low'),
             ('500', 'Normal'),
             ('750', 'High'),
-            ('1000', 'Very High')], 'Priority', select=True)
+            ('999', 'Very High')], 'Priority', select=True)
 
     @staticmethod
     def default_priority():
