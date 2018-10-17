@@ -14,8 +14,14 @@ class Work:
             ('250', 'Low'),
             ('500', 'Normal'),
             ('750', 'High'),
-            ('999', 'Very High')], 'Priority', select=True, sort=False)
+            ('999', 'Very High'),
+            ], 'Priority', select=True, sort=True)
 
     @staticmethod
     def default_priority():
         return '500'
+
+    @classmethod
+    def order_priority(cls, tables):
+        table, _ = tables[None]
+        return [table.priority]
