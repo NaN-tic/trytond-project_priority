@@ -9,16 +9,16 @@ __all__ = ['Work']
 class Work(metaclass=PoolMeta):
     __name__ = 'project.work'
     priority = fields.Selection([
-            ('100', 'Very Low'),
-            ('250', 'Low'),
-            ('500', 'Normal'),
-            ('750', 'High'),
-            ('999', 'Very High'),
+            ('1', 'Very Low'),
+            ('2', 'Low'),
+            ('3', 'Normal'),
+            ('4', 'High'),
+            ('5', 'Very High'),
             ], 'Priority', select=True, sort=True)
 
     @staticmethod
     def default_priority():
-        return '500'
+        return '3'
 
     @classmethod
     def order_priority(cls, tables):
