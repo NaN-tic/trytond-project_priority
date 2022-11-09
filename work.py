@@ -14,7 +14,7 @@ class Work(metaclass=PoolMeta):
             ('3', 'Normal'),
             ('4', 'High'),
             ('5', 'Very High'),
-            ], 'Priority', select=True, sort=True)
+            ], 'Priority', sort=True)
 
     @staticmethod
     def default_priority():
